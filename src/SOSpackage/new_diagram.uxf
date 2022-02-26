@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>110</y>
+      <w>200</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>SOSpackage::Game_alt
+--
+-contentPane: JPanel
+~player1: boolean
+~player2: boolean
+~gui: GUI_alt
+~score1 = 0: int
+~score2 = 0: int
+~rnd = new Random(): Random
+--
++Game_alt(): ctor
++main(String[] args): void
++whogofirst(): void
++enableradio(): void
++disableradio(): void
++minimax(JButton[] Board, int depth, boolean currentstate): int
++checkwinner(): String
++forAI(): void
++resetgame(): void
++choosesimple(): boolean
++choosegene(): boolean
++paint(Graphics g): void
++actionPerformed(ActionEvent e): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>100</y>
+      <w>200</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>SOSpackage::Game_alt
+--
+-contentPane: JPanel
+~player1: boolean
+~player2: boolean
+~gui: GUI_alt
+~score1 = 0: int
+~score2 = 0: int
+~rnd = new Random(): Random
+--
++Game_alt(): ctor
++main(String[] args): void
++whogofirst(): void
++enableradio(): void
++disableradio(): void
++minimax(JButton[] Board, int depth, boolean currentstate): int
++checkwinner(): String
++forAI(): void
++resetgame(): void
++choosesimple(): boolean
++choosegene(): boolean
++paint(Graphics g): void
++actionPerformed(ActionEvent e): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>60</y>
+      <w>200</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>SOSpackage::Game_alt
+--
+-contentPane: JPanel
+~player1: boolean
+~player2: boolean
+~gui: GUI_alt
+~score1 = 0: int
+~score2 = 0: int
+~rnd = new Random(): Random
+--
++Game_alt(): ctor
++main(String[] args): void
++whogofirst(): void
++enableradio(): void
++disableradio(): void
++minimax(JButton[] Board, int depth, boolean currentstate): int
++checkwinner(): String
++forAI(): void
++resetgame(): void
++choosesimple(): boolean
++choosegene(): boolean
++paint(Graphics g): void
++actionPerformed(ActionEvent e): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
